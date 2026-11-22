@@ -10,15 +10,11 @@ services:
 
     environment:
       EULA: "TRUE"
-
-      # Fabric
       TYPE: "FABRIC"
       VERSION: "26.3"
-
-      # RAM allocation
       MEMORY: "3G"
 
-      # Keep existing server.properties untouched
+      # Preserve your existing server.properties
       OVERRIDE_SERVER_PROPERTIES: "false"
 
     volumes:
