@@ -11,7 +11,7 @@ This repository contains the configuration and existing world data for hosting a
 | Minecraft Version | `26.3` |
 | Server Software | Fabric |
 | Docker Image | `itzg/minecraft-server:latest` |
-| RAM Allocation | 3 GB Java heap |
+| RAM Allocation | 1.5 GB Java heap |
 | Expected Players | 2–5 |
 | Authentication | Offline mode |
 | Server Port | `25565` (TCP) |
@@ -36,7 +36,7 @@ Create an Azure Virtual Machine with:
 
 - **OS:** Ubuntu 22.04 or 24.04 LTS
 - **Architecture:** x86-64
-- **RAM:** Preferably 4 GB or more, since the JVM heap is configured to use 3 GB and the operating system and Docker also need memory.
+- **RAM:** Preferably 2 GB or more, since the JVM heap is configured to use 3 GB and the operating system and Docker also need memory.
 - **Storage:** Enough disk space for the world and future backups.
 - **Public IP:** Required for direct internet connections.
 
@@ -138,7 +138,7 @@ services:
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "26.3"
-      MEMORY: "3G"
+      MEMORY: "1.5G"
       OVERRIDE_SERVER_PROPERTIES: "false"
 
     volumes:
@@ -152,5 +152,5 @@ services:
 
 - `TYPE: FABRIC` tells the container to install and run Fabric.
 - `VERSION: "26.3"` selects the Minecraft version.
-- `MEMORY: "3G"` configures the Java heap.
+- `MEMORY: "1.5G"` configures the Java heap.
 - `./data:/data` mounts
