@@ -1,0 +1,28 @@
+
+services:
+  minecraft:
+    image: itzg/minecraft-server:latest
+    container_name: minecraft
+    restart: unless-stopped
+
+    ports:
+      - "25565:25565"
+
+    environment:
+      EULA: "TRUE"
+
+      # Fabric
+      TYPE: "FABRIC"
+      VERSION: "26.3"
+
+      # RAM allocation
+      MEMORY: "3G"
+
+      # Keep existing server.properties untouched
+      OVERRIDE_SERVER_PROPERTIES: "false"
+
+    volumes:
+      - ./data:/data
+
+    stdin_open: true
+    tty: true

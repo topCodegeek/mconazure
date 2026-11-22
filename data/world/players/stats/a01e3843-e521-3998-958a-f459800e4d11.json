@@ -1,0 +1,74 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:short_grass": 4,
+      "minecraft:yellow_bed": 3,
+      "minecraft:leaf_litter": 1,
+      "minecraft:oak_log": 7,
+      "minecraft:birch_planks": 5
+    },
+    "minecraft:picked_up": {
+      "minecraft:egg": 1,
+      "minecraft:yellow_bed": 3,
+      "minecraft:salmon": 1,
+      "minecraft:dirt": 20,
+      "minecraft:feather": 1,
+      "minecraft:bone": 4,
+      "minecraft:arrow": 2,
+      "minecraft:redstone": 7,
+      "minecraft:beef": 3,
+      "minecraft:leaf_litter": 3,
+      "minecraft:oak_log": 7,
+      "minecraft:birch_planks": 5,
+      "minecraft:dandelion": 1,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:gunpowder": 1,
+      "minecraft:spider_eye": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 4352,
+      "minecraft:walk_one_cm": 214086,
+      "minecraft:leave_game": 5,
+      "minecraft:horse_one_cm": 303,
+      "minecraft:walk_under_water_one_cm": 8558,
+      "minecraft:damage_taken": 4198,
+      "minecraft:play_time": 98325,
+      "minecraft:damage_dealt": 105,
+      "minecraft:jump": 897,
+      "minecraft:time_since_death": 22103,
+      "minecraft:interact_with_furnace": 5,
+      "minecraft:sprint_one_cm": 352211,
+      "minecraft:open_chest": 29,
+      "minecraft:sleep_in_bed": 2,
+      "minecraft:fall_one_cm": 25105,
+      "minecraft:total_world_time": 98325,
+      "minecraft:swim_one_cm": 18843,
+      "minecraft:fly_one_cm": 76925,
+      "minecraft:walk_on_water_one_cm": 14262,
+      "minecraft:crouch_one_cm": 3882,
+      "minecraft:sneak_time": 5022,
+      "minecraft:climb_one_cm": 1451,
+      "minecraft:deaths": 15
+    },
+    "minecraft:crafted": {
+      "minecraft:iron_ingot": 1,
+      "minecraft:oak_planks": 24,
+      "minecraft:cooked_porkchop": 2
+    },
+    "minecraft:used": {
+      "minecraft:birch_planks": 5,
+      "minecraft:yellow_bed": 3,
+      "minecraft:egg": 1,
+      "minecraft:cooked_porkchop": 2,
+      "minecraft:oak_log": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 1,
+      "minecraft:player": 2,
+      "minecraft:creeper": 2,
+      "minecraft:zombie": 3
+    }
+  },
+  "DataVersion": 5023
+}

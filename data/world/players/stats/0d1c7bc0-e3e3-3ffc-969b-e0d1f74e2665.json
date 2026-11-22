@@ -1,0 +1,61 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:iron_helmet": 1,
+      "minecraft:iron_boots": 1,
+      "minecraft:iron_leggings": 1
+    },
+    "minecraft:used": {
+      "minecraft:iron_leggings": 1,
+      "minecraft:cobbled_deepslate": 2,
+      "minecraft:iron_helmet": 1,
+      "minecraft:yellow_bed": 1,
+      "minecraft:iron_chestplate": 1,
+      "minecraft:white_bed": 2,
+      "minecraft:stone_pickaxe": 5,
+      "minecraft:bread": 5,
+      "minecraft:iron_boots": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 5,
+      "minecraft:torch": 2,
+      "minecraft:tall_grass": 2,
+      "minecraft:yellow_bed": 2,
+      "minecraft:deepslate_iron_ore": 5,
+      "minecraft:white_bed": 3
+    },
+    "minecraft:picked_up": {
+      "minecraft:yellow_bed": 2,
+      "minecraft:white_bed": 3,
+      "minecraft:torch": 2,
+      "minecraft:bone": 2,
+      "minecraft:arrow": 2,
+      "minecraft:cobbled_deepslate": 2,
+      "minecraft:raw_iron": 5
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 13971,
+      "minecraft:walk_one_cm": 50375,
+      "minecraft:leave_game": 6,
+      "minecraft:walk_under_water_one_cm": 119,
+      "minecraft:damage_taken": 554,
+      "minecraft:play_time": 54760,
+      "minecraft:jump": 367,
+      "minecraft:time_since_death": 13933,
+      "minecraft:sprint_one_cm": 205976,
+      "minecraft:open_chest": 17,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:fall_one_cm": 11163,
+      "minecraft:swim_one_cm": 7152,
+      "minecraft:total_world_time": 54760,
+      "minecraft:fly_one_cm": 38508,
+      "minecraft:walk_on_water_one_cm": 5404,
+      "minecraft:crouch_one_cm": 1839,
+      "minecraft:sneak_time": 595,
+      "minecraft:climb_one_cm": 524,
+      "minecraft:deaths": 2
+    }
+  },
+  "DataVersion": 4790
+}
