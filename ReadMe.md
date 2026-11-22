@@ -36,7 +36,7 @@ Create an Azure Virtual Machine with:
 
 - **OS:** Ubuntu 22.04 or 24.04 LTS
 - **Architecture:** x86-64
-- **RAM:** Preferably 2 GB or more, since the JVM heap is configured to use 3 GB and the operating system and Docker also need memory.
+- **RAM:** Preferably 2 GB or more, since the JVM heap is configured to use 1.5 GB and the operating system and Docker also need memory.
 - **Storage:** Enough disk space for the world and future backups.
 - **Public IP:** Required for direct internet connections.
 
