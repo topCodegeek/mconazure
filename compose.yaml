@@ -11,7 +11,7 @@ services:
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "26.3"
-      MEMORY: "1.5G"
+      MEMORY: "1536M"
       OVERRIDE_SERVER_PROPERTIES: "false"
 
     volumes:
