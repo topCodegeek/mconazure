@@ -1,4 +1,3 @@
-
 services:
   minecraft:
     image: itzg/minecraft-server:latest
@@ -12,13 +11,18 @@ services:
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "26.3"
-      MEMORY: "3G"
-
-      # Preserve your existing server.properties
+      MEMORY: "1.5G"
       OVERRIDE_SERVER_PROPERTIES: "false"
 
     volumes:
       - ./data:/data
+
+    # Prevent Docker logs from growing indefinitely.
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
     stdin_open: true
     tty: true
